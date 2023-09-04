@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Home | Recipe</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+			crossorigin="anonymous" />
+
+		<link rel="stylesheet" href="./assets/styles/index.css" />
+		<link rel="stylesheet" href="./assets/styles/home.css" />
+	</head>
+
+	<body id="page-home" style="position: relative">
+		<div
+			style="
+				background-color: #efc81a;
+				width: 29vw;
+				height: 66vw;
+				position: absolute;
+				top: 0;
+				right: 0;
+				z-index: -1;
+			"></div>
+
+		<header id="all-header" style="width: 100%">
+			<nav
+				class="navbar navbar-expand ms-lg-5 justify-content-between"
+				style="padding-top: 47px">
+				<div class="container-fluid ps-sm-5">
+					<ul class="navbar-nav gap-sm-5 gap-2">
+						<li class="nav-item">
+							<a class="nav-link fw-bold text-secondary" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link fw-bold text-secondary"
+								href="./pages/addRecipePage.html"
+								>Add Recipe</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link fw-bold text-secondary"
+								href="./pages/profilePage.html"
+								>Profile</a
+							>
+						</li>
+					</ul>
+				</div>
+
+				<div>
+					<a
+						href="./pages/loginPage.html"
+						class="d-flex text-light me-5 ps-4 ps-sm-0 pe-md-5">
+						<img src="./assets/icons/icon-person.svg" alt="icon-person" />
+
+						<p class="mt-3 ms-2" style="font-size: 18px">Login</p>
+					</a>
+				</div>
+			</nav>
+		</header>
+
+		<main style="padding-left: 6%; width: 100%" class="container-fluid">
+			<section class="row">
+				<div class="col-12 ms-3 ms-sm-5 ms-lg-0 ps-sm-5 ps-lg-0 col-lg-6 mt-5 pt-5">
+					<h1 class="mt-healthy-bone">Discover Recipe <br />& Delicious Food</h1>
+
+					<div class="position-relative">
+						<!-- under 768px  -->
+						<input
+							type="text"
+							style="width: 82%; height: 10vw; font-size: 18px"
+							class="form-control border-2 bg-body-secondary ps-5 d-lg-none"
+							placeholder="search restaurant, food" />
+
+						<!-- above 768px  -->
+						<input
+							type="text"
+							style="width: 33vw; height: 90px; font-size: 18px"
+							class="form-control border-2 bg-body-secondary ps-5 d-none d-lg-block"
+							placeholder="search restaurant, food" />
+
+						<img
+							src="./assets/icons/icon-search.svg"
+							alt="icon-search"
+							style="margin-top: -9px"
+							class="position-absolute top-50 ps-4" />
+					</div>
+				</div>
+
+				<div class="col-6 d-none d-lg-block" style="margin-top: 276px">
+					<img
+						class="mt-xl-0 mt-5"
+						style="width: 75%"
+						src="./assets/images/home/img-discover.png"
+						alt="img-discover" />
+				</div>
+			</section>
+
+			<section id="popular-for-you" style="margin-top: 200px">
+				<h2
+					style="border-left: 25px solid; height: 140px"
+					class="fw-bold border-warning ps-5 p-2 align-items-center d-flex">
+					Popular For You !
+				</h2>
+
+				<div class="row">
+					<div
+						class="col-10 col-lg-10 col-xl-7 ms-5 ps-5 ms-xl-0 ps-xl-0"
+						style="margin-top: 7%">
+						<div
+							id="border-box-yellow"
+							class="border-5 border-warning border rounded-3"
+							style="
+								position: absolute;
+								width: 32vw;
+								height: 41vw;
+								transform: translateX(199px);
+								margin-top: 80px;
+							"></div>
+
+						<img
+							style="width: 80%; position: relative"
+							src="./assets/images/home/img-popular-for-you.png"
+							alt="img-popular-for-you" />
+					</div>
+
+					<div class="col-12 col-lg-12 col-xl-4 mt-healthy-bone">
+						<h1 class="fw-semibold mt-lg-0 mt-sm-5">
+							Healthy Bone Broth Ramen (Quick & Easy)
+						</h1>
+
+						<p class="col-12">
+							Quick + Easy Chicken Bone Broth Ramen- Healthy chicken ramen in a hurry?
+							That's right!
+						</p>
+						<button
+							class="bg-yellow border-0 rounded text-light"
+							style="width: 200px; height: 64px; font-size: 16px">
+							Learn More
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<section style="margin-top: 200px">
+				<h2
+					style="border-left: 25px solid; height: 140px"
+					class="fw-bold border-warning ps-5 p-2 align-items-center d-flex">
+					New Recipe
+				</h2>
+
+				<div class="row position-relative">
+					<div
+						style="
+							background-color: #efc81a;
+							width: 24vw;
+							height: 40vw;
+							position: absolute;
+							top: 0;
+							left: 0;
+							z-index: -1;
+							margin-left: -118px;
+							margin-top: 80px;
+						"></div>
+
+					<div
+						class="col-10 col-lg-10 col-xl-7 ms-5 ps-5 ms-xl-0 ps-xl-0"
+						style="margin-top: 7%">
+						<img
+							style="width: 80%; position: relative"
+							src="./assets/images/home/img-new-recipe.png"
+							alt="img-new-recipe" />
+					</div>
+
+					<div class="col-12 col-lg-12 col-xl-4 mt-healthy-bone">
+						<h1 class="fw-semibold mt-lg-0 mt-5">
+							Healthy Bone Broth Ramen (Quick & Easy)
+						</h1>
+
+						<p class="col-11" style="font-size: 24px">
+							Quick + Easy Chicken Bone Broth Ramen- Healthy chicken ramen in a hurry?
+							That's right!
+						</p>
+						<button
+							class="bg-yellow border-0 rounded text-light"
+							style="width: 200px; height: 64px; font-size: 16px">
+							Learn More
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<section id="popular-recipe" style="margin-top: 200px">
+				<h1
+					style="border-left: 25px solid; height: 140px"
+					class="fw-bold border-warning ps-5 p-2 align-items-center d-flex">
+					Popular Recipe
+				</h1>
+
+				<div class="row col-12">
+					<div class="col-xl-4 col-lg-6 col-12" style="position: relative">
+						<img
+							style="width: 90%; margin: 30px"
+							src="./assets/images/home/chiken-kare.png"
+							alt="" />
+						<p class="col-lg-2 position-absolute" style="font-weight: 500">
+							Chicken Kare
+						</p>
+					</div>
+
+					<div class="col-xl-4 col-lg-6 col-12" style="position: relative">
+						<img
+							style="width: 90%; margin: 30px"
+							src="./assets/images/home/bomb-chicken.png"
+							alt="" />
+						<p class="col-lg-2 position-absolute" style="font-weight: 500">
+							Bomb Chicken
+						</p>
+					</div>
+
+					<div class="col-xl-4 col-lg-6 col-12" style="position: relative">
+						<img
+							style="width: 90%; margin: 30px"
+							src="./assets/images/home/banana-smothie-pop.png"
+							alt="" />
+						<p class="col-lg-5 position-absolute" style="font-weight: 500">
+							Banana Smoothie Pop
+						</p>
+					</div>
+
+					<div class="col-xl-4 col-lg-6 col-12" style="position: relative">
+						<img
+							style="width: 90%; margin: 30px"
+							src="./assets/images/home/coffe-lava-cake.png"
+							alt="" />
+						<p class="col-lg-4 position-absolute" style="font-weight: 500">
+							Coffe Lava Cake
+						</p>
+					</div>
+
+					<div class="col-xl-4 col-lg-6 col-12" style="position: relative">
+						<img
+							style="width: 90%; margin: 30px"
+							src="./assets/images/home/sugar-salmon.png"
+							alt="" />
+						<p class="col-lg-2 position-absolute" style="font-weight: 500">
+							Sugar Salmon
+						</p>
+					</div>
+
+					<div class="col-xl-4 col-lg-6 col-12" style="position: relative">
+						<img
+							style="width: 90%; margin: 30px"
+							src="./assets/images/home/indian-salad.png"
+							alt="" />
+						<p class="col-lg-2 position-absolute" style="font-weight: 500">
+							Indian Salad
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer
+			class="bg-yellow text-center d-flex align-items-center flex-column justify-content-between"
+			style="margin-top: 100px; height: 685px; width: 100%">
+			<div>
+				<h1 style="padding-top: 230px">Eat, Cook, Repeat</h1>
+				<p class="pt-4" style="font-size: 24px">
+					Share your best recipe by uploading here !
+				</p>
+			</div>
+
+			<div
+				class="d-flex text-center justify-items-center align-items-center gap-5 mb-5 pb-3"
+				style="font-size: 16px">
+				<a href="">Product</a>
+				<a href="">Company</a>
+				<a href="">Learn More</a>
+				<a href="">Get In Touch</a>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+			crossorigin="anonymous"></script>
+	</body>
+</html>

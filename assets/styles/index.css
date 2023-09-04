@@ -1,0 +1,42 @@
+:root {
+	.bg-yellow {
+		background-color: #efc81a;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.nav-link {
+	color: #666;
+}
+
+.nav-link.active {
+	color: black;
+}
+
+.nav-link:focus {
+	color: black;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+/* @media only screen and (max-width: 600px) {
+
+} */
+
+@media only screen and (max-width: 768px) {
+	#all-header a {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width: 769px) {
+	#all-header a {
+		font-size: 18px;
+	}
+}

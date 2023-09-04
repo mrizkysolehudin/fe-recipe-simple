@@ -1,0 +1,188 @@
+body {
+	width: 360px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+#popular-recipe p {
+	font-size: 17px;
+	bottom: 30px;
+	left: 65px;
+}
+
+#border-box-yellow {
+	display: none;
+}
+
+.mt-healthy-bone {
+	margin-top: 30px;
+}
+
+/* style="margin-top: 480px" */
+/* style="margin-top: 330px" */
+
+@media only screen and (min-width: 400px) {
+	h1 {
+		font-size: 48px;
+	}
+
+	h2 {
+		font-size: 36px;
+	}
+
+	p {
+		font-size: 24px;
+	}
+
+	#popular-recipe p {
+		font-size: 32px;
+		bottom: 50px;
+		left: 85px;
+	}
+}
+
+/* @media only screen and (min-width: 600px) {
+	body {
+		min-width: 600px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		min-width: 768px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	body {
+		min-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	body {
+		min-width: 1280px;
+	}
+
+	h1 {
+		font-size: 56px;
+	}
+
+	h2 {
+		font-size: 48px;
+	}
+
+	#border-box-yellow {
+		display: block;
+	}
+
+	.mt-healthy-bone {
+		margin-top: 330px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	body {
+		min-width: 1440px;
+	}
+
+	h1 {
+		font-size: 64px;
+	}
+
+	h2 {
+		font-size: 56px;
+	}
+}
+
+@media only screen and (min-width: 1700px) {
+	body {
+		min-width: 1440px;
+	}
+
+	h1 {
+		font-size: 72px;
+	}
+
+	h2 {
+		font-size: 64px;
+	}
+} */
+
+@media only screen and (max-width: 600px) {
+	body {
+		min-width: 600px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		min-width: 768px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	body {
+		min-width: 1024px;
+	}
+
+	h1 {
+		font-size: 56px;
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	body {
+		min-width: 1280px;
+	}
+
+	h1 {
+		font-size: 56px;
+	}
+
+	h2 {
+		font-size: 48px;
+	}
+
+	#border-box-yellow {
+		display: block;
+	}
+
+	.mt-healthy-bone {
+		margin-top: 330px;
+	}
+}
+
+@media only screen and (max-width: 1440px) {
+	body {
+		min-width: 1440px;
+	}
+
+	h1 {
+		font-size: 64px;
+	}
+
+	h2 {
+		font-size: 56px;
+	}
+}
+
+@media only screen and (max-width: 1700px) {
+	body {
+		min-width: 1640px;
+	}
+
+	h1 {
+		font-size: 72px;
+	}
+
+	h2 {
+		font-size: 64px;
+	}
+}

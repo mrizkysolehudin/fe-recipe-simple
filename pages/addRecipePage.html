@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Add Recipe | Recipe</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+			crossorigin="anonymous" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+			rel="stylesheet" />
+
+		<link rel="stylesheet" href="../assets/styles/main.css" />
+	</head>
+
+	<body id="page-addRecipe" style="width: 1920px; position: relative">
+		<header>
+			<nav
+				class="navbar navbar-expand"
+				style="padding-top: 47px; padding-left: 110px">
+				<div class="container-fluid ps-5">
+					<ul class="navbar-nav" style="font-size: 18px">
+						<li class="nav-item pe-5">
+							<a class="nav-link fw-bold text-secondary" href="index.html">Home</a>
+						</li>
+						<li class="nav-item pe-5">
+							<a
+								class="nav-link fw-bold text-secondary"
+								href="./pages/addRecipePage.html"
+								>Add Recipe</a
+							>
+						</li>
+						<li class="nav-item pe-5">
+							<a
+								class="nav-link fw-bold text-secondary"
+								href="./pages/profilePage.html"
+								>Profile</a
+							>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<main class="">
+			<form
+				class="container-xl d-flex flex-column justify-content-center align-items-center gap-5"
+				style="margin-top: 110px">
+				<div
+					class="form-group d-flex position-relative justify-content-center align-items-center bg-secondary-subtle rounded-4"
+					style="width: 1300px; height: 480px">
+					<input
+						type="file"
+						class="form-control-file mt-2"
+						id="photo"
+						style="width: 1300px; height: 480px; opacity: 0; z-index: 1" />
+
+					<div
+						class="position-absolute d-flex flex-column justify-content-center"
+						style="top: 40%; z-index: 0">
+						<p class="text-secondary fs-5 ms-3">image</p>
+						<img
+							src="../assets/icons/icon-gallery.svg"
+							alt="icon-gallery"
+							style="margin-top: -22px; width: 80px"
+							class="ms-3" />
+						<p style="font-size: 24px; font-weight: 500" class="mt-3">Add Photo</p>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<input
+						type="text"
+						class="form-control ps-5 rounded-4 bg-secondary-subtle"
+						id="title"
+						placeholder="Title"
+						style="width: 1300px; height: 100px; font-size: 24px" />
+				</div>
+
+				<div class="form-group">
+					<textarea
+						class="form-control ps-5 rounded-4 bg-secondary-subtle"
+						id="ingredients"
+						placeholder="Ingredients"
+						style="width: 1300px; height: 380px; font-size: 24px"></textarea>
+				</div>
+
+				<div class="form-group">
+					<input
+						type="text"
+						class="form-control ps-5 rounded-4 bg-secondary-subtle"
+						id="title"
+						placeholder="Video"
+						style="width: 1300px; height: 100px; font-size: 24px" />
+				</div>
+
+				<button
+					type="submit"
+					class="btn bg-yellow text-light fw-semibold"
+					style="width: 426px; height: 64px; margin-top: 60px; font-size: 16px">
+					Post
+				</button>
+			</form>
+		</main>
+
+		<footer
+			class="bg-yellow text-center d-flex align-items-center flex-column justify-content-between"
+			style="margin-top: 100px; height: 685px">
+			<div>
+				<h3 style="font-size: 72px; padding-top: 230px">Eat, Cook, Repeat</h3>
+				<p class="pt-4" style="font-size: 24px">
+					Share your best recipe by uploading here !
+				</p>
+			</div>
+
+			<div
+				class="d-flex text-center justify-items-center align-items-center gap-5 mb-5 pb-3"
+				style="font-size: 16px">
+				<a href="">Product</a>
+				<a href="">Company</a>
+				<a href="">Learn More</a>
+				<a href="">Get In Touch</a>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+			crossorigin="anonymous"></script>
+	</body>
+</html>

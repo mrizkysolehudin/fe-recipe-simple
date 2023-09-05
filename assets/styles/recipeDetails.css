@@ -1,0 +1,182 @@
+body {
+	width: 100vw;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+#ingredients p {
+	font-size: 18px;
+	margin-bottom: 0;
+	font-weight: 300;
+}
+
+#wrapper-image-details img#img-details {
+	width: 50vw;
+	margin-top: 1vw;
+}
+
+#wrapper-image-details button {
+	width: 2.4vw;
+	height: 2.4vw;
+}
+
+#wrapper-image-details button img {
+	width: 2vw;
+	margin-left: -1vw;
+	margin-top: -3vw;
+}
+
+#videoStep button {
+	width: 19vw;
+	height: 5vw;
+}
+
+#videoStep button img {
+	width: 2vw;
+	margin-top: -18px;
+}
+
+#comment textarea {
+	width: 65vw;
+	height: 19vw;
+}
+
+#comment img {
+	width: 9%;
+	height: 9%;
+}
+
+#userComment p {
+	margin: 0;
+	margin-top: -0.5vw;
+	font-size: 10px;
+}
+
+@media only screen and (max-width: 426px) {
+	h1 {
+		font-size: 28px;
+	}
+
+	h3 {
+		font-size: 22px;
+	}
+
+	#wrapper-image-details button {
+		height: 5vw;
+	}
+
+	#wrapper-image-details button img {
+		width: 2vw;
+		margin-left: -1vw;
+		margin-top: -6vw;
+	}
+
+	#ingredients p {
+		font-size: 14px;
+	}
+
+	#videoStep button img {
+		width: 2vw;
+		margin-top: -23px;
+	}
+
+	#comment #btn-send {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	h1 {
+		font-size: 48px;
+	}
+
+	h3 {
+		font-size: 36px;
+	}
+
+	#ingredients p {
+		font-size: 20px;
+	}
+
+	#videoStep button {
+		height: 3.5vw;
+	}
+
+	#videoStep button img {
+		width: 1.5vw;
+		margin-top: -1.5vw;
+	}
+
+	#comment img {
+		width: 5%;
+		height: 5%;
+	}
+
+	#userComment p {
+		font-size: 14px;
+		margin-top: -0.2vw;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	#wrapper-image-details button img {
+		width: 2vw;
+		margin-left: -1vw;
+		margin-top: -1.5vw;
+	}
+
+	#videoStep button img {
+		margin-top: 0vw;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	h1 {
+		font-size: 48px;
+	}
+
+	h3 {
+		font-size: 36px;
+	}
+
+	#ingredients p {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	h1 {
+		font-size: 56px;
+	}
+	h3 {
+		font-size: 48px;
+	}
+	#wrapper-image-details button img {
+		width: 250%;
+		margin-left: -80%;
+		margin-top: -60%;
+	}
+
+	#ingredients p {
+		font-size: 28px;
+	}
+}
+
+@media only screen and (min-width: 1720px) {
+	h1 {
+		font-size: 72px;
+	}
+	h3 {
+		font-size: 64px;
+	}
+	#ingredients p {
+		font-size: 32px;
+	}
+}

@@ -1,0 +1,120 @@
+h2 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+h5 {
+	font-size: 12px;
+	font-weight: 500;
+}
+
+h6 {
+	font-size: 8px;
+	font-weight: 500;
+	margin-top: 7px;
+}
+
+p {
+	color: #aaa;
+	font-size: 7px;
+	margin-top: -6px;
+}
+
+iframe {
+	width: 100%;
+	height: 40dvw;
+}
+
+#currentStep p {
+	font-size: 12px;
+	margin-top: -4px;
+}
+
+#nextStep img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+@media only screen and (min-width: 425px) {
+	h5 {
+		font-size: 14px;
+	}
+
+	h6 {
+		font-size: 8px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	h5 {
+		font-size: 20px;
+	}
+	h6 {
+		font-size: 15px;
+	}
+	p {
+		font-size: 10px;
+	}
+	#currentStep p {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	h2 {
+		font-size: 24px;
+	}
+
+	h5 {
+		font-size: 24px;
+	}
+	h6 {
+		font-size: 10px;
+	}
+	p {
+		font-size: 7px;
+		margin-top: -6px;
+	}
+
+	iframe {
+		width: 56dvw;
+		height: 31dvw;
+	}
+
+	#currentStep p {
+		font-size: 20px;
+	}
+
+	#nextStep img {
+		width: 16dvw;
+		height: 8dvw;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	h5 {
+		font-size: 32px;
+	}
+	h6 {
+		font-size: 12px;
+	}
+	#currentStep p {
+		font-size: 24px;
+	}
+
+	#nextStep img {
+		margin-top: 5px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	h6 {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width: 1720px) {
+	h6 {
+		font-size: 16px;
+	}
+}

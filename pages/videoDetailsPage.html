@@ -16,10 +16,100 @@
 			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
 			rel="stylesheet" />
 
-		<link rel="stylesheet" href="../assets/styles/login.css" />
+		<link rel="stylesheet" href="../assets/styles/index.css" />
+		<link rel="stylesheet" href="../assets/styles/videoDetails.css" />
 	</head>
-	<body id="page-login">
-		<main class="row"></main>
+
+	<body
+		id="page-videoDetails"
+		class="position-relative"
+		style="min-height: 100vh; width: 100dvw">
+		<div
+			class="bg-yellow position-absolute"
+			style="width: 5dvw; height: 100%"></div>
+
+		<header id="all-header" style="width: 100%" class="ms-3 ms-lg-0">
+			<nav
+				class="navbar navbar-expand ms-lg-5 justify-content-between"
+				style="padding-top: 27px">
+				<div class="container-fluid ps-sm-5">
+					<ul class="navbar-nav gap-sm-5 gap-2">
+						<li class="nav-item">
+							<a class="nav-link fw-bold" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link fw-bold" href="./pages/addRecipePage.html"
+								>Add Recipe</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link fw-bold" href="./pages/profilePage.html">Profile</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<main
+			class="d-lg-flex justify-content-between mx-auto gap-3 gap-md-3"
+			style="width: 80dvw; margin-top: 5vw; padding-bottom: 5vw">
+			<section id="currentStep" class="col-12 col-lg-7">
+				<div class="col-12">
+					<iframe
+						src="https://www.youtube.com/embed/cyS8ycmGs1U"
+						frameborder="0"
+						allowfullscreen></iframe>
+
+					<h5 class="mt-3">
+						Beef Steak with Curry Sauce - [Step 4]
+						<span class="d-block"> Cut the condiment and then mix it </span>
+					</h5>
+					<p>3 month ago</p>
+				</div>
+			</section>
+
+			<section id="nextStep">
+				<h2 class="mt-4 mt-lg-0">Next</h2>
+
+				<div
+					class="col-12 col-lg-3 d-flex d-lg-inline flex-wrap column-gap-4 column-gap-lg-0 row-gap-md-2 row-gap-lg-0">
+					<div class="col-5 col-lg-12">
+						<a href="">
+							<img src="../assets/images/img-videostep5.png" />
+							<h6>
+								Beef Steak with Curry Sauce - [Step 5]
+								<span class="d-block">
+									Saute condiments together until turn brown
+								</span>
+							</h6>
+							<p>HanaLohana - 3 month ago</p>
+						</a>
+					</div>
+
+					<div class="col-5 col-lg-12">
+						<a href="">
+							<img src="../assets/images/img-videostep6-7.png" />
+							<h6>
+								Beef Steak with Curry Sauce - [Step 6]
+								<span class="d-block"> Roast beef until it’s medium rare </span>
+							</h6>
+							<p>HanaLohana - 3 month ago</p>
+						</a>
+					</div>
+
+					<div class="col-5 col-lg-12">
+						<a href="">
+							<img src="../assets/images/img-videostep6-7.png" />
+							<h6>
+								Beef Steak with Curry Sauce - [Step 7]
+								<span class="d-block"> Roast beef until it’s medium rare </span>
+							</h6>
+							<p>HanaLohana - 3 month ago</p>
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
 
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"

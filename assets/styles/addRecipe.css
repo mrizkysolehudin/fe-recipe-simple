@@ -1,0 +1,106 @@
+#btn-post {
+	font-size: 16px;
+}
+
+form #image,
+form #bg-wrapper-image {
+	height: 24dvw;
+	font-size: 12px;
+}
+form #icon-gallery {
+	width: 6dvw;
+	margin-top: 4dvw;
+}
+form #title {
+	height: 8dvw;
+	font-size: 12px;
+}
+form #ingredients {
+	height: 19dvw;
+	font-size: 12px;
+}
+form #video {
+	height: 8dvw;
+	font-size: 12px;
+}
+form #btn-post {
+	font-size: 7px;
+	height: 7dvw;
+}
+
+@media only screen and (min-width: 375px) {
+	form #btn-post {
+		font-size: 9px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	form #image,
+	form #bg-wrapper-image {
+		height: 24dvw;
+	}
+	form #icon-gallery {
+		width: 3dvw;
+		margin-top: 0dvw;
+	}
+	form #title {
+		height: 5dvw;
+	}
+	form #ingredients {
+		height: 19dvw;
+	}
+	form #video {
+		height: 5dvw;
+	}
+	form #btn-post {
+		font-size: 7px;
+		height: 3dvw;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	form #image,
+	form #bg-wrapper-image {
+		font-size: 18px;
+	}
+	form #title {
+		font-size: 18px;
+	}
+	form #ingredients {
+		font-size: 18px;
+	}
+	form #video {
+		font-size: 18px;
+	}
+	form #btn-post {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	#btn-post {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	form #image,
+	form #bg-wrapper-image {
+		font-size: 24px;
+	}
+	form #title {
+		font-size: 24px;
+	}
+	form #ingredients {
+		font-size: 24px;
+	}
+	form #video {
+		font-size: 24px;
+	}
+	form #btn-post {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (min-width: 1720px) {
+}

@@ -19,7 +19,7 @@
 }
 
 /* logo */
-#page-login .img-logo {
+#page-register .img-logo {
 	width: 182px;
 	height: 224px;
 	position: absolute;
@@ -43,7 +43,7 @@
 }
 
 /* logo */
-#page-login .img-logo {
+#page-register .img-logo {
 	width: 182px;
 	height: 224px;
 	position: absolute;
@@ -52,7 +52,7 @@
 }
 
 #content-right {
-	margin-top: 270px;
+	margin-top: 80px;
 }
 
 form .width-form {
@@ -89,7 +89,7 @@ form .width-form {
 	}
 
 	#content-right {
-		margin-top: 529px;
+		margin-top: 293px;
 	}
 }
 

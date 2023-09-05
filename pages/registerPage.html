@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Login | Recipe</title>
+		<title>Register | Recipe</title>
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -16,10 +16,123 @@
 			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
 			rel="stylesheet" />
 
-		<link rel="stylesheet" href="../assets/styles/login.css" />
+		<link rel="stylesheet" href="../assets/styles/index.css" />
+		<link rel="stylesheet" href="../assets/styles/register.css" />
 	</head>
-	<body id="page-login">
-		<main class="row"></main>
+	<body id="page-register" style="height: 1587px; position: relative">
+		<main class="row" style="width: 100%; height: 100%">
+			<section id="content-left" class="col-xl-6" style="position: relative">
+				<img
+					src="../assets/images/bg-image-content-left.png"
+					class="bg-image-content-left"
+					alt="bg-image-content-left" />
+				<div class="bg-left"></div>
+
+				<img src="../assets/images/logo.png" class="img-logo" alt="logo" />
+			</section>
+
+			<section
+				id="content-right"
+				class="col-lg-12 col-xxl-6 d-flex flex-column align-items-center">
+				<div>
+					<h1
+						class="text-yellow text-center"
+						style="font-size: 30px; font-weight: 700">
+						Let’s Get Started !
+					</h1>
+					<h4
+						style="margin-top: 30px; font-size: 18px; font-weight: 400"
+						class="text-center text-gray">
+						Create new account to access all features
+					</h4>
+
+					<form style="margin-top: 37px">
+						<div>
+							<label class="form-label">Name</label>
+							<input
+								type="text"
+								class="form-control width-form"
+								placeholder="Enter name"
+								style="margin-top: 14px; height: 64px; font-size: 14px" />
+						</div>
+
+						<div style="margin-top: 24px">
+							<label class="form-label">Email address</label>
+							<input
+								type="text"
+								class="form-control width-form"
+								placeholder="Enter email address"
+								style="margin-top: 14px; height: 64px; font-size: 14px" />
+						</div>
+
+						<div style="margin-top: 24px">
+							<label class="form-label">Phone Number</label>
+							<input
+								type="text"
+								class="form-control width-form"
+								placeholder="08xxxxxxxxxx"
+								style="margin-top: 14px; height: 64px; font-size: 14px" />
+						</div>
+
+						<div style="margin-top: 24px">
+							<label for="formGroupExampleInput2" class="form-label"
+								>Create New Password</label
+							>
+							<input
+								type="text"
+								class="form-control width-form"
+								placeholder="Create New Password"
+								style="margin-top: 14px; height: 64px; font-size: 14px" />
+						</div>
+
+						<div style="margin-top: 24px">
+							<label for="formGroupExampleInput2" class="form-label"
+								>New Password</label
+							>
+							<input
+								type="text"
+								class="form-control width-form"
+								placeholder="New Password"
+								style="margin-top: 14px; height: 64px; font-size: 14px" />
+						</div>
+
+						<div class="form-check" style="margin-top: 24px">
+							<input
+								class="form-check-input"
+								type="checkbox"
+								id="gridCheck"
+								style="width: 20px; height: 20px" />
+							<label
+								class="form-check-label"
+								for="gridCheck"
+								style="font-size: 16px; margin-left: 14px">
+								I agree to terms & conditions</label
+							>
+						</div>
+
+						<button
+							type="button"
+							class="btn btn-warning text-light width-form"
+							style="margin-top: 39px; height: 64px; font-size: 16px">
+							Register Account
+						</button>
+					</form>
+
+					<div style="margin-top: 16px">
+						<a href="" style="font-size: 12px" class="d-flex justify-content-end"
+							>Forgot Password ?</a
+						>
+
+						<p
+							class="d-flex justify-content-center text-lightgray"
+							style="font-size: 13px; margin-top: 24px">
+							Already have account?
+							<a href="" class="text-yellow ms-1"> Log in Here </a>
+						</p>
+					</div>
+				</div>
+			</section>
+		</main>
 
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"

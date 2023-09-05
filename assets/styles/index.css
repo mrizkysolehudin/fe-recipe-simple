@@ -1,6 +1,26 @@
 :root {
+	.text-yellow {
+		color: #efc81a;
+	}
+
 	.bg-yellow {
 		background-color: #efc81a;
+	}
+
+	.btn-warning {
+		background-color: #efc81a;
+	}
+
+	.text-gray {
+		color: #8692a6;
+	}
+
+	.text-lightgray {
+		color: #999999;
+	}
+
+	.text-primary {
+		color: #494949;
 	}
 }
 

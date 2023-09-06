@@ -1,0 +1,126 @@
+#profile-user p {
+	font-size: 14px;
+}
+
+#avatar {
+	width: 20vw;
+}
+
+#btn-edit {
+	bottom: 0;
+	right: 0;
+	width: 1.2vw;
+}
+#btn-edit img {
+	width: 4vw;
+}
+
+#menu-options a {
+	font-size: 11px;
+}
+#border-menu {
+	top: 15vw;
+}
+
+#recipe .card-recipe {
+	margin-left: 5vw;
+}
+#recipe .card-recipe img {
+	width: 90%;
+}
+#recipe p {
+	font-size: 16px;
+	left: 1vw;
+	bottom: -1vw;
+	font-weight: 500;
+}
+
+@media only screen and (min-width: 425px) {
+	#profile-user p {
+		font-size: 16px;
+	}
+
+	#menu-options a {
+		font-size: 14px;
+	}
+	#border-menu {
+		top: 13.5vw;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	#profile-user p {
+		font-size: 12px;
+	}
+
+	#avatar {
+		width: 8.5vw;
+	}
+
+	#btn-edit {
+		bottom: -5px;
+		right: 0;
+		width: 1.2vw;
+	}
+	#btn-edit img {
+		width: 1.2vw;
+	}
+
+	#border-menu {
+		top: 10vw;
+	}
+
+	#recipe .card-recipe {
+		margin-left: 0;
+	}
+	#recipe .card-recipe img {
+		width: 18.5vw;
+		height: 12.5vw;
+	}
+	#recipe p {
+		font-size: 13px;
+		line-height: normal;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	#profile-user p {
+		font-size: 15px;
+	}
+	#btn-edit {
+		bottom: 0;
+		right: 0;
+		width: 1.2vw;
+	}
+
+	#menu-options a {
+		font-size: 16px;
+	}
+	#border-menu {
+		top: 9.5vw;
+	}
+	#recipe p {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+}
+
+@media only screen and (min-width: 1440px) {
+	#profile-user p {
+		font-size: 24px;
+	}
+
+	#menu-options a {
+		font-size: 24px;
+	}
+	#recipe p {
+		font-size: 26px;
+	}
+}
+@media only screen and (min-width: 1720px) {
+	#recipe p {
+		font-size: 28px;
+	}
+}

@@ -1,188 +1,107 @@
-body {
-	width: 360px;
+main h1 {
+	font-size: 9vw;
+}
+main h2 {
+	font-size: 6dvw;
 }
 
-h1 {
-	font-size: 30px;
+h2::before {
+	content: "";
+	position: absolute;
+	bottom: -1.2dvw;
+	left: 0;
+	width: 17%;
+	height: 1.5px;
+	background-color: black;
+	transform: translateY(-50%);
+}
+main h3 {
+	font-size: 7dvw;
+}
+#discover {
+	width: 95%;
+}
+#wrapper-img-discover,
+#wrapper-img-popular-for-you,
+#wrapper-img-new-recipe {
+	width: 85%;
+}
+#img-discover {
+	width: 80%;
 }
 
-h2 {
-	font-size: 24px;
+main p {
+	font-size: 3dvw;
+	margin-top: 3dvw;
+}
+main .btn-learn-more {
+	font-size: 7px;
+	width: 25vw;
+	margin-top: 1dvw;
 }
 
-#popular-recipe p {
-	font-size: 17px;
-	bottom: 30px;
-	left: 65px;
+main #popular-recipe p {
+	font-size: 4dvw;
+	font-weight: 500;
+	bottom: 0.3dvw;
+	left: 6dvw;
+}
+main #popular-recipe img {
+	width: 90%;
+	/* width: 100%; */
 }
 
-#border-box-yellow {
-	display: none;
-}
-
-.mt-healthy-bone {
-	margin-top: 30px;
-}
-
-/* style="margin-top: 480px" */
-/* style="margin-top: 330px" */
-
-@media only screen and (min-width: 400px) {
-	h1 {
-		font-size: 48px;
-	}
-
-	h2 {
-		font-size: 36px;
-	}
-
-	p {
-		font-size: 24px;
-	}
-
-	#popular-recipe p {
-		font-size: 32px;
-		bottom: 50px;
-		left: 85px;
-	}
-}
-
-/* @media only screen and (min-width: 600px) {
-	body {
-		min-width: 600px;
-	}
+@media only screen and (min-width: 425px) {
 }
 
 @media only screen and (min-width: 768px) {
-	body {
-		min-width: 768px;
+	main h1 {
+		font-size: 3.6vw;
+	}
+	main h2 {
+		font-size: 2.8dvw;
+	}
+	main h3 {
+		font-size: 2.4dvw;
+	}
+	#discover {
+		width: 100%;
+	}
+	#wrapper-img-discover,
+	#wrapper-img-popular-for-you,
+	#wrapper-img-new-recipe {
+		width: 50%;
+	}
+	#img-discover {
+		width: 38dvw;
+	}
+	main p {
+		font-size: 1.2dvw;
+		margin-top: 3dvw;
+	}
+	main .btn-learn-more {
+		font-size: 0.8vw;
+		width: 10vw;
+		margin-top: 1dvw;
+	}
+
+	main #popular-recipe p {
+		font-size: 2.5dvw;
+		left: 4dvw;
 	}
 }
 
 @media only screen and (min-width: 1024px) {
-	body {
-		min-width: 1024px;
-	}
 }
-
 @media only screen and (min-width: 1280px) {
-	body {
-		min-width: 1280px;
-	}
-
-	h1 {
-		font-size: 56px;
-	}
-
-	h2 {
-		font-size: 48px;
-	}
-
-	#border-box-yellow {
-		display: block;
-	}
-
-	.mt-healthy-bone {
-		margin-top: 330px;
+	main #popular-recipe p {
+		font-size: 1.6dvw;
+		left: 2.9dvw;
 	}
 }
 
 @media only screen and (min-width: 1440px) {
-	body {
-		min-width: 1440px;
-	}
-
-	h1 {
-		font-size: 64px;
-	}
-
-	h2 {
-		font-size: 56px;
-	}
 }
 
-@media only screen and (min-width: 1700px) {
-	body {
-		min-width: 1440px;
-	}
-
-	h1 {
-		font-size: 72px;
-	}
-
-	h2 {
-		font-size: 64px;
-	}
-} */
-
-@media only screen and (max-width: 600px) {
-	body {
-		min-width: 600px;
-	}
-}
-
-@media only screen and (max-width: 768px) {
-	body {
-		min-width: 768px;
-	}
-}
-
-@media only screen and (max-width: 1024px) {
-	body {
-		min-width: 1024px;
-	}
-
-	h1 {
-		font-size: 56px;
-	}
-}
-
-@media only screen and (max-width: 1280px) {
-	body {
-		min-width: 1280px;
-	}
-
-	h1 {
-		font-size: 56px;
-	}
-
-	h2 {
-		font-size: 48px;
-	}
-
-	#border-box-yellow {
-		display: block;
-	}
-
-	.mt-healthy-bone {
-		margin-top: 330px;
-	}
-}
-
-@media only screen and (max-width: 1440px) {
-	body {
-		min-width: 1440px;
-	}
-
-	h1 {
-		font-size: 64px;
-	}
-
-	h2 {
-		font-size: 56px;
-	}
-}
-
-@media only screen and (max-width: 1700px) {
-	body {
-		min-width: 1640px;
-	}
-
-	h1 {
-		font-size: 72px;
-	}
-
-	h2 {
-		font-size: 64px;
-	}
+@media only screen and (min-width: 1720px) {
 }

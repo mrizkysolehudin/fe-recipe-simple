@@ -54,7 +54,14 @@ body {
 
 #all-header a {
 	color: #2e266f;
-	font-size: 13px;
+	font-size: 3dvw;
+}
+
+#all-header #btn-login img {
+	width: 6dvw;
+}
+#all-header #btn-login p {
+	font-size: 3dvw;
 }
 
 footer {
@@ -83,11 +90,22 @@ footer a {
 	margin-bottom: 8vw;
 }
 
+/* @media only screen and (min-width: 768px) {
+	#all-header a {
+		font-size: 19px;
+	}
+} */
+
 @media only screen and (min-width: 768px) {
 	#all-header a {
-		font-size: 14px;
+		font-size: 2dvw;
 	}
-
+	#all-header #btn-login img {
+		width: 4dvw;
+	}
+	#all-header #btn-login p {
+		font-size: 2dvw;
+	}
 	footer {
 		height: 55vh;
 	}
@@ -108,6 +126,15 @@ footer a {
 }
 
 @media only screen and (min-width: 1024px) {
+	#all-header a {
+		font-size: 0.9dvw;
+	}
+	#all-header #btn-login img {
+		width: 2.4dvw;
+	}
+	#all-header #btn-login p {
+		font-size: 0.8dvw;
+	}
 	footer {
 		height: 55vh;
 	}
@@ -118,10 +145,6 @@ footer a {
 }
 
 @media only screen and (min-width: 1280px) {
-	#all-header a {
-		font-size: 18px;
-	}
-
 	footer h1 {
 		font-size: 72px;
 		margin-top: 9vw;

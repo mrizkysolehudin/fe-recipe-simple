@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="./assets/styles/home.css" />
 	</head>
 
-	<body id="page-home" style="position: relative">
+	<body id="page-home" style="position: relative; width: 100dvw">
 		<div
 			style="
 				background-color: #efc81a;
@@ -52,216 +52,202 @@
 					</ul>
 				</div>
 
-				<div>
-					<a
-						href="./pages/loginPage.html"
-						class="d-flex text-light me-5 ps-4 ps-sm-0 pe-md-5">
+				<div id="btn-login" style="margin-right: 8dvw">
+					<a href="./pages/loginPage.html" class="d-flex text-light">
 						<img src="./assets/icons/icon-person.svg" alt="icon-person" />
 
-						<p class="mt-3 ms-2" style="font-size: 18px">Login</p>
+						<p class="mt-3 ms-2">Login</p>
 					</a>
 				</div>
 			</nav>
 		</header>
 
-		<main style="padding-left: 6%; width: 100%" class="container-fluid">
-			<section class="row">
-				<div class="col-12 ms-3 ms-sm-5 ms-lg-0 ps-sm-5 ps-lg-0 col-lg-6 mt-5 pt-5">
-					<h1 class="mt-healthy-bone">Discover Recipe <br />& Delicious Food</h1>
+		<main style="width: 100dvw; padding-left: 6dvw; margin-right: 6dvw" class="">
+			<div
+				style="
+					background-color: #efc81a;
+					width: 29vw;
+					height: 66vw;
+					position: absolute;
+					top: 0;
+					right: 0;
+					z-index: -1;
+				"></div>
+
+			<section id="discover" class="row">
+				<div class="col-12 col-md-6" style="margin-top: 16dvw">
+					<h1 class="ms-5 ms-md-0">Discover Recipe <br />& Delicious Food</h1>
 
 					<div class="position-relative">
-						<!-- under 768px  -->
 						<input
 							type="text"
-							style="width: 82%; height: 10vw; font-size: 18px"
-							class="form-control border-2 bg-body-secondary ps-5 d-lg-none"
-							placeholder="search restaurant, food" />
-
-						<!-- above 768px  -->
-						<input
-							type="text"
-							style="width: 33vw; height: 90px; font-size: 18px"
-							class="form-control border-2 bg-body-secondary ps-5 d-none d-lg-block"
-							placeholder="search restaurant, food" />
+							style="
+								width: 33.5dvw;
+								height: 4.5dvw;
+								font-size: 1dvw;
+								padding-left: 4dvw;
+							"
+							class="form-control border-2 bg-body-secondary d-none d-md-block"
+							placeholder="Search restaurant, food" />
 
 						<img
 							src="./assets/icons/icon-search.svg"
 							alt="icon-search"
-							style="margin-top: -9px"
-							class="position-absolute top-50 ps-4" />
+							style="width: 1dvw; left: 2.5dvw; top: 1.7dvw"
+							class="position-absolute" />
 					</div>
 				</div>
 
-				<div class="col-6 d-none d-lg-block" style="margin-top: 276px">
+				<div
+					id="wrapper-img-discover"
+					class="col-12 col-md-6 ms-5 ms-md-0"
+					style="margin-top: 5.5dvw">
 					<img
-						class="mt-xl-0 mt-5"
-						style="width: 75%"
+						id="img-discover"
+						class=""
 						src="./assets/images/home/img-discover.png"
 						alt="img-discover" />
 				</div>
 			</section>
 
-			<section id="popular-for-you" style="margin-top: 200px">
-				<h2
-					style="border-left: 25px solid; height: 140px"
-					class="fw-bold border-warning ps-5 p-2 align-items-center d-flex">
+			<section class="pt-5 pt-md-0" style="margin-top: 10dvw">
+				<h3
+					style="border-left: 1.2dvw solid; height: 7dvw; padding-left: 1.5dvw"
+					class="fw-bold border-warning align-items-center d-flex">
 					Popular For You !
-				</h2>
+				</h3>
 
-				<div class="row">
+				<div class="d-md-flex" style="margin-top: 5dvw">
 					<div
-						class="col-10 col-lg-10 col-xl-7 ms-5 ps-5 ms-xl-0 ps-xl-0"
-						style="margin-top: 7%">
+						id="wrapper-img-popular-for-you"
+						class="col-12 col-md-6 mt-5 mt-md-0 ms-5 ms-md-0 ps-5 ps-md-0 position-relative">
+						<img
+							class=""
+							style="width: 41.5dvw"
+							src="./assets/images/home/img-popular-for-you.png"
+							alt="img-popular-for-you" />
+
 						<div
 							id="border-box-yellow"
-							class="border-5 border-warning border rounded-3"
+							class="border-3 border-warning border rounded-3"
 							style="
 								position: absolute;
 								width: 32vw;
 								height: 41vw;
-								transform: translateX(199px);
-								margin-top: 80px;
+								top: 3.5dvw;
+								z-index: -1;
+								transform: translateX(13dvw);
 							"></div>
-
-						<img
-							style="width: 80%; position: relative"
-							src="./assets/images/home/img-popular-for-you.png"
-							alt="img-popular-for-you" />
 					</div>
 
-					<div class="col-12 col-lg-12 col-xl-4 mt-healthy-bone">
-						<h1 class="fw-semibold mt-lg-0 mt-sm-5">
+					<div
+						class="col-12 col-md-6"
+						style="margin-top: 11dvw; padding-left: 10dvw">
+						<h2 class="fw-semibold col-10 position-relative">
 							Healthy Bone Broth Ramen (Quick & Easy)
-						</h1>
-
-						<p class="col-12">
+						</h2>
+						<p class="col-10 col-md-8">
 							Quick + Easy Chicken Bone Broth Ramen- Healthy chicken ramen in a hurry?
 							That's right!
 						</p>
-						<button
-							class="bg-yellow border-0 rounded text-light"
-							style="width: 200px; height: 64px; font-size: 16px">
+						<button class="btn btn-warning text-light btn-learn-more">
 							Learn More
 						</button>
 					</div>
 				</div>
 			</section>
 
-			<section style="margin-top: 200px">
-				<h2
-					style="border-left: 25px solid; height: 140px"
-					class="fw-bold border-warning ps-5 p-2 align-items-center d-flex">
+			<section class="position-relative pt-5 pt-md-0" style="margin-top: 10dvw">
+				<div
+					class="d-none d-md-block"
+					style="
+						background-color: #efc81a;
+						width: 24vw;
+						height: 40vw;
+						position: absolute;
+						top: 0;
+						left: 0;
+						z-index: -1;
+						margin-left: -118px;
+						margin-top: 12dvw;
+					"></div>
+
+				<h3
+					style="border-left: 1.2dvw solid; height: 7dvw; padding-left: 1.5dvw"
+					class="fw-bold border-warning align-items-center d-flex">
 					New Recipe
-				</h2>
+				</h3>
 
-				<div class="row position-relative">
+				<div class="d-md-flex" style="margin-top: 9dvw">
 					<div
-						style="
-							background-color: #efc81a;
-							width: 24vw;
-							height: 40vw;
-							position: absolute;
-							top: 0;
-							left: 0;
-							z-index: -1;
-							margin-left: -118px;
-							margin-top: 80px;
-						"></div>
-
-					<div
-						class="col-10 col-lg-10 col-xl-7 ms-5 ps-5 ms-xl-0 ps-xl-0"
-						style="margin-top: 7%">
+						id="wrapper-img-new-recipe"
+						class="col-12 col-md-6 mt-5 mt-md-0 ms-5 ms-md-0 ps-5 ps-md-0 position-relative">
 						<img
-							style="width: 80%; position: relative"
+							class=""
+							style="width: 40dvw"
 							src="./assets/images/home/img-new-recipe.png"
 							alt="img-new-recipe" />
 					</div>
 
-					<div class="col-12 col-lg-12 col-xl-4 mt-healthy-bone">
-						<h1 class="fw-semibold mt-lg-0 mt-5">
+					<div
+						class="col-12 col-md-6"
+						style="margin-top: 11dvw; padding-left: 10dvw">
+						<h2 class="fw-semibold col-10 position-relative">
 							Healthy Bone Broth Ramen (Quick & Easy)
-						</h1>
-
-						<p class="col-11" style="font-size: 24px">
+						</h2>
+						<p class="col-8">
 							Quick + Easy Chicken Bone Broth Ramen- Healthy chicken ramen in a hurry?
 							That's right!
 						</p>
-						<button
-							class="bg-yellow border-0 rounded text-light"
-							style="width: 200px; height: 64px; font-size: 16px">
-							Learn More
-						</button>
+						<button class="btn btn-warning text-light">Learn More</button>
 					</div>
 				</div>
 			</section>
 
-			<section id="popular-recipe" style="margin-top: 200px">
-				<h1
-					style="border-left: 25px solid; height: 140px"
-					class="fw-bold border-warning ps-5 p-2 align-items-center d-flex">
+			<section
+				id="popular-recipe"
+				class="pt-5 pt-md-0 ps-4 ps-md-0"
+				style="margin-top: 10dvw; margin-right: 6dvw">
+				<h3
+					style="border-left: 1.2dvw solid; height: 7dvw; padding-left: 1.5dvw"
+					class="fw-bold border-warning align-items-center d-flex">
 					Popular Recipe
-				</h1>
+				</h3>
 
-				<div class="row col-12">
-					<div class="col-xl-4 col-lg-6 col-12" style="position: relative">
-						<img
-							style="width: 90%; margin: 30px"
-							src="./assets/images/home/chiken-kare.png"
-							alt="" />
-						<p class="col-lg-2 position-absolute" style="font-weight: 500">
-							Chicken Kare
-						</p>
-					</div>
+				<div class="row" style="row-gap: 3.7dvw; margin-top: 5.6dvw">
+					<a href="" class="col-xl-4 col-md-6 col-12" style="position: relative">
+						<img src="./assets/images/home/chiken-kare.png" alt="chiken-kare" />
+						<p class="col-lg-2 position-absolute">Chicken Kare</p>
+					</a>
 
-					<div class="col-xl-4 col-lg-6 col-12" style="position: relative">
-						<img
-							style="width: 90%; margin: 30px"
-							src="./assets/images/home/bomb-chicken.png"
-							alt="" />
-						<p class="col-lg-2 position-absolute" style="font-weight: 500">
-							Bomb Chicken
-						</p>
-					</div>
+					<a href="" class="col-xl-4 col-md-6 col-12" style="position: relative">
+						<img src="./assets/images/home/bomb-chicken.png" alt="bomb-chicken" />
+						<p class="col-lg-2 position-absolute">Bomb Chicken</p>
+					</a>
 
-					<div class="col-xl-4 col-lg-6 col-12" style="position: relative">
+					<a href="" class="col-xl-4 col-md-6 col-12" style="position: relative">
 						<img
-							style="width: 90%; margin: 30px"
 							src="./assets/images/home/banana-smothie-pop.png"
-							alt="" />
-						<p class="col-lg-5 position-absolute" style="font-weight: 500">
-							Banana Smoothie Pop
-						</p>
-					</div>
+							alt="banana-smothie-pop" />
+						<p class="col-lg-4 position-absolute">Banana Smoothie Pop</p>
+					</a>
 
-					<div class="col-xl-4 col-lg-6 col-12" style="position: relative">
+					<a href="" class="col-xl-4 col-md-6 col-12" style="position: relative">
 						<img
-							style="width: 90%; margin: 30px"
 							src="./assets/images/home/coffe-lava-cake.png"
-							alt="" />
-						<p class="col-lg-4 position-absolute" style="font-weight: 500">
-							Coffe Lava Cake
-						</p>
-					</div>
+							alt="coffe-lava-cake" />
+						<p class="col-lg-4 position-absolute">Coffe Lava Cake</p>
+					</a>
 
-					<div class="col-xl-4 col-lg-6 col-12" style="position: relative">
-						<img
-							style="width: 90%; margin: 30px"
-							src="./assets/images/home/sugar-salmon.png"
-							alt="" />
-						<p class="col-lg-2 position-absolute" style="font-weight: 500">
-							Sugar Salmon
-						</p>
-					</div>
+					<a href="" class="col-xl-4 col-md-6 col-12" style="position: relative">
+						<img src="./assets/images/home/sugar-salmon.png" alt="sugar-salmon" />
+						<p class="col-lg-2 position-absolute">Sugar Salmon</p>
+					</a>
 
-					<div class="col-xl-4 col-lg-6 col-12" style="position: relative">
-						<img
-							style="width: 90%; margin: 30px"
-							src="./assets/images/home/indian-salad.png"
-							alt="" />
-						<p class="col-lg-2 position-absolute" style="font-weight: 500">
-							Indian Salad
-						</p>
-					</div>
+					<a href="" class="col-xl-4 col-md-6 col-12" style="position: relative">
+						<img src="./assets/images/home/indian-salad.png" alt="indian-salad" />
+						<p class="col-lg-2 position-absolute">Indian Salad</p>
+					</a>
 				</div>
 			</section>
 		</main>
